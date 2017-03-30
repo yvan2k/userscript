@@ -4,7 +4,7 @@
 // @include     http://www.tvmaze.com/calendar*
 // @downloadURL https://github.com/yvan2k/userscript/blob/master/tvmaze_calendar.user.js?raw=true
 // @updateURL   https://github.com/yvan2k/userscript/blob/master/tvmaze_calendar.user.js?raw=true
-// @version     0
+// @version     1
 // @grant       none
 // ==/UserScript==
 
