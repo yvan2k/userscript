@@ -23,7 +23,7 @@ $(".entry a").each(function () {
   if (show_id != undefined) {
     console.log(show_id, this, $(this).parent()[0].attributes["class"]) ;      
     var str0 = "<input class=\"postcheckbox\" type=\"checkbox\" checked show_id=\"" + show_id + "\" >" ;
-    //$(this).before(str0) ;    
+    $(this).before(str0) ;    
   }
   
   if (episode_id != undefined) {
