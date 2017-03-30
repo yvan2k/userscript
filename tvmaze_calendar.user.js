@@ -2,7 +2,9 @@
 // @name        Streamline tvmaze calendar
 // @namespace   tvmaze
 // @include     http://www.tvmaze.com/calendar*
-// @version     1
+// @downloadURL https://github.com/yvan2k/userscript/blob/master/tvmaze_calendar.user.js?raw=true
+// @updateURL   https://github.com/yvan2k/userscript/blob/master/tvmaze_calendar.user.js?raw=true
+// @version     0
 // @grant       none
 // ==/UserScript==
 
@@ -21,7 +23,7 @@ $(".entry a").each(function () {
   if (show_id != undefined) {
     console.log(show_id, this, $(this).parent()[0].attributes["class"]) ;      
     var str0 = "<input class=\"postcheckbox\" type=\"checkbox\" checked show_id=\"" + show_id + "\" >" ;
-    $(this).before(str0) ;    
+    //$(this).before(str0) ;    
   }
   
   if (episode_id != undefined) {
